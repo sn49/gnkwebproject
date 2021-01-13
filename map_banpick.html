@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8;" />   
+        <script src="./map_random.js"></script>
+        <script src="./map_banpick.js"></script>
+        <base href="/" /> 
+    </head>
+    <body>
+        1팀 플레이어1 : <input type="text" id="team1p1" value="1"><br>
+        1팀 플레이어2 : <input type="text" id="team1p2" value="1"><br>
+        1팀 플레이어3 : <input type="text" id="team1p3" value="1"><br>
+        1팀 플레이어4 : <input type="text" id="team1p4" value="1"><br>
+        2팀 플레이어1 : <input type="text" id="team2p1" value="1"><br>
+        2팀 플레이어2 : <input type="text" id="team2p2" value="1"><br>
+        2팀 플레이어3 : <input type="text" id="team2p3" value="1"><br>
+        2팀 플레이어4 : <input type="text" id="team2p4" value="1"><br>
+        <br>
+        <br>
+        <br>
+        <button type="button" id="start" onclick="map_banpick(); map_random(5,30);">시작</button><br>
+        <div id="timer"></div>
+        <div id="result">여기서 맵 리스트가 나옵니다.</div>
+        <br>
+        <br>
+        <br>
+        <div id="ban">여기서 밴 한 맵들이 나옵니다.</div>
+        <br>
+        <br>
+        <br>
+        <div id="pick">여기서 픽 한 맵들이 나옵니다.</div>
+    </body>
+</html>
