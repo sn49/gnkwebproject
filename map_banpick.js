@@ -6,7 +6,7 @@ var second=40;
 var team=1;
 var player=1;
 function map_banpick(){
-    var music2=new Audio("http://gin7174.dothome.co.kr/Forget Me Not - Patrick Patrikios.mp3")
+    var music2=new Audio("Forget Me Not - Patrick Patrikios.mp3")
     music2.loop=true;
     music2.play()
 
