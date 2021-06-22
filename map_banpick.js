@@ -6,7 +6,9 @@ var second=40;
 var team=1;
 var player=1;
 function map_banpick(){
-    var music2=new Audio("Forget Me Not - Patrick Patrikios.mp3")
+    var pathname = "./Forget%20Me%20Not%20-%20Patrick%20Patrikios.mp3"
+    console.log(pathname)
+    var music2=new Audio(pathname)
     music2.loop=true;
     music2.play()
 
